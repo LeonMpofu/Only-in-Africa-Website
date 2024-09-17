@@ -19,15 +19,21 @@ header {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 .logo h1 {
     font-size: 1.5rem;
+    margin-left: 10px; /* Space between logo and text */
 }
+
 .logo img {
-    max-width: 100px;  /* Adjust size as needed */
+    max-width: 50px; /* Smaller size for the logo */
     height: auto;
-    display: block;
-    margin-top: 10px;  /* Adds some space between the logo and the text */
 }
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -41,9 +47,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1rem;
-}
-
-.hero {
+}.hero {
     background: url('./Pictures/ethnic-african-portrait-art-40088416026925_1160x_crop_center.webp') no-repeat center center/cover;
     height: 80vh;
     display: flex;
