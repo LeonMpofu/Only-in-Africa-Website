@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 .hero {
-    background: url('/Users/leonmpofu/Desktop/E-COMMERCE SHOP/Pictures/ethnic-african-portrait-art-40088416026925_1160x_crop_center.webp') no-repeat center center/cover;
+    background: url('./Pictures/ethnic-african-portrait-art-40088416026925_1160x_crop_center.webp') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     justify-content: center;
